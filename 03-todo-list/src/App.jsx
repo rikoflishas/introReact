@@ -25,11 +25,11 @@ function App () {
 
   return (
     <>
-      <h1>To do List</h1>
+      <h1>Lista de Compras</h1>
       {/* 2. Usar un evento onChange para guardar la información del estado, apenas esta sea tecleada. La información del input la obtenemos de event.target.value */}
       <input
         type='text'
-        placeholder='Escribe una tarea'
+        placeholder='Escribe un artículo'
         value={inputValue}
         onChange={(event) => setInputValue(event.target.value)}
       />
