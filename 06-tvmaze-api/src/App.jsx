@@ -1,6 +1,6 @@
-import Navbar from '../components/Navbar'
-import Home from '../pages/Home'
-import RoutesIndex from '../routes/RoutesIndex'
+import Navbar from './components/Navbar'
+import Home from './pages/Home'
+import RoutesIndex from './routes/RoutesIndex'
 import { BrowserRouter, Routes } from 'react-router-dom'
 import './App.css'
 

@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className='navbar navbar-expand-lg bg-danger'>
       <div className='container-fluid'>
         <NavLink className='navbar-brand' to='/'>
-          Pokedex
+          TV MAZE
         </NavLink>
         <button
           className='navbar-toggler'
